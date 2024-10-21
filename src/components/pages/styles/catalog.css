@@ -1,0 +1,14 @@
+.catalog{
+    min-height:  calc(100vh - 100px);
+}
+
+.catalog h3{
+    margin-top: 20px;
+}
+
+.catalog-items{
+    
+}
+.catalog .filters button {
+    margin-left: 8px;
+}

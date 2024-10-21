@@ -1,0 +1,25 @@
+
+.product {
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin: 12px;
+    background-color: white;
+    display: inline-block;
+    width: 250px;
+    height: 340px;
+    vertical-align: top;
+}
+.product h3 {
+    margin: 5px;
+    color: brown;
+}
+
+.product img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.product-price{
+    display: flex;
+    flex-direction: column;
+}
