@@ -1,0 +1,16 @@
+.admin . parent {
+    display: flex;
+    justify-content: center;
+}
+
+.admin .parent .products {
+    width: 550px;
+    border: 1px solid #dedef;
+    background-color: white;
+    padding: 12px;
+    margin-right: 20px;
+}
+
+.admin .parent .coupons {
+
+}
