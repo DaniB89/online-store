@@ -1,0 +1,26 @@
+.cart .list {
+    margin: top 12px;
+    padding: 20px;
+}
+
+
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+
+.cart .cart-prod img {
+    height: 95px;
+}
+
+.cart .cart-prod h4{
+    flex: 4;
+}
+
+.cart .cart-prod label {
+    flex: 1;
+
+    .cart .cart-prod button {
+        width: 75px;
+    }
+}

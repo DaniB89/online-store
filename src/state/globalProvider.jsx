@@ -5,7 +5,10 @@ function  GlobalProvider(props) {
 const [cart, setCart] = useState([]),
 const [user, setUser] = useState({name:"Dani", id:125689 });
 
-function addToCart() {
+function addToCart(producct) {
+    const copy = [...cart]
+    copy.push(copy);
+    setCart(copy);
 }
 
 function removeFromCart() {
@@ -21,7 +24,7 @@ function clearCart() {
             addToCart: addToCart,
             removeFromCart: removeFromCart,
             clearCart: clearCart
-         }}>
+        }}>
             {props.children}
         </DataContext.Provider>
     );

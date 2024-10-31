@@ -14,4 +14,4 @@ const DataContext = createContext{
     clearCart: () => {}
 }
 
-export default DataContext
+export default DataContext;
